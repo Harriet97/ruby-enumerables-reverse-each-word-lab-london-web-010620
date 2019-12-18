@@ -1,4 +1,4 @@
-def revere_each_word(sentence)
+def reverse_each_word(sentence)
   new = []
   counter = 0 
   while counter < sentence.length do
@@ -8,3 +8,4 @@ def revere_each_word(sentence)
   new 
 end
 
+reverse_each_word(sentence) { |b| "#{b.reverse}" }
