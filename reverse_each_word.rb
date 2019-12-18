@@ -8,4 +8,4 @@ def reverse_each_word(sentence)
   new 
 end
 
-reverse_each_word(sentence) { |b| "#{b.reverse}" }
+reverse_each_word(sentence).each { |b| "#{b.reverse}" }
